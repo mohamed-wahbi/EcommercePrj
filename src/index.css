@@ -1,0 +1,75 @@
+.color-body {
+  background-color: #f8f8f8;
+  padding: 15px;
+}
+
+.font {
+  font-family: cursive;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px 0px;
+  color: green;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+.img {
+  width: 100px;
+}
+
+.panier {
+  text-align: end;
+  position: fixed;
+  right: 20px;
+  z-index: 5;
+  color: antiquewhite;
+  background-color: rgb(33 37 41);
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+  top: 70px;
+  width: 150px;
+  border: 8px solid #198754;
+}
+
+.panier:hover {
+  background-color: rgb(49, 139, 139);
+}
+
+.panierCard {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+  background: #9dcfbb;
+  padding: 20px;
+  color: white;
+}
+
+.btnPanier {
+  display: flex;
+  width: 240px;
+  justify-content: space-between;
+}
+
+.btnPanier button {
+  border: none;
+  border-radius: 4px;
+  color: red;
+}
+
+.card {
+  width: 50%;
+  margin: auto;
+}
+
+.goHome {
+  text-align: center;
+  color: #198754;
+  text-decoration: none;
+}
